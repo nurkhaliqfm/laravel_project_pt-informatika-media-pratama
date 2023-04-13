@@ -41,8 +41,8 @@ Route::get('/posts/{id}', function ($id) {
 // POST /api/posts
 Route::post('/posts', function (Request $request) {
     $validatedData = $request->validate([
-        'title' => 'required|unique:posts|max:255',
-        'content' => 'required',
+        'title' => 'required|max:20',
+        'content' => 'required|max:255',
     ]);
 
     $post = Posts::create($validatedData);
