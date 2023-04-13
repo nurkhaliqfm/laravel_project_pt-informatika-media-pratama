@@ -1,0 +1,26 @@
+GET http://localhost:8001/api/posts
+
+###
+GET http://localhost:8001/api/posts/3
+
+###
+POST http://localhost:8001/api/posts
+Content-Type: application/json
+
+{
+    "title": "Four Post",
+    "content": "Lorem ipsum dolor sit amet"
+}
+
+###
+PUT http://localhost:8000/api/posts/5
+Content-Type: application/json
+
+{
+    "title": "Five Post Update",
+    "content": "This post has been updated."
+}
+
+###
+DELETE http://localhost:8000/api/posts/4
+Content-Type: application/json
