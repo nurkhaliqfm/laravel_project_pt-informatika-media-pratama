@@ -7,7 +7,7 @@ Membuat Rest Api Menggunakan Laravel dengan Fitur :
 -   **PUT /api/posts/{id}**
 -   **DELETE /api/posts/{id}**
 
-###= Database
+### Database
 -   Database dapat dibuat secara pribadi atau menggunakan datbase yang telah saya cantumkan.
 -   File Database yang digunakan laravel_informatika_media_pratama.sql (item database [title, content])
 -   Ubah file .env sesuai Pengaturan Localhost:
