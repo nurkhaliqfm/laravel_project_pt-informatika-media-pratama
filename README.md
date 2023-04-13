@@ -11,6 +11,6 @@ Membuat Rest Api Menggunakan Laravel dengan Fitur :
 -   Database dapat dibuat secara pribadi atau menggunakan datbase yang telah saya cantumkan.
 -   File Database yang digunakan laravel_informatika_media_pratama.sql (item database [title, content])
 -   Ubah file .env sesuai Pengaturan Localhost:
-        DB_DATABASE={DB_DATABASE}
-        DB_USERNAME={DB_USERNAME}
-        DB_PASSWORD={DB_PASSWORD}
+        - DB_DATABASE={DB_DATABASE}
+        - DB_USERNAME={DB_USERNAME}
+        - DB_PASSWORD={DB_PASSWORD}
